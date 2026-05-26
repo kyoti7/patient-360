@@ -1,97 +1,171 @@
-Patient 360
+# Patient 360
+
 A full-stack healthcare management system
+
 ---
-Tech Stack
-Frontend
+
+# Tech Stack
+
+## Frontend
 * React JS
 * Vite
 * Axios
 
-Backend
+## Backend
 * FastAPI
 
-Database
+## Database
 * MySQL
 * MongoDB
+
 ---
-Software Requirements
+
+# Software Requirements
 
 Install the following before running the project:
 
-Node.js v22.14.0
-Python 3.14.5
-Git
-MySQL Workbench or MySQL Server
-MongoDB Compass or MongoDB Community Server
-Visual Studio Code
+* Node.js v22.14.0
+* Python 3.14.5
+* Git
+* MySQL Workbench or MySQL Server
+* MongoDB Compass or MongoDB Community Server
+* Visual Studio Code
+
 ---
-Installation Guide
+
+# Installation Guide
+
 ---
-Clone the Repository
+
+## Clone the Repository
+
+```bash
 git clone <repository-url>
 cd patient-360
+```
+
 ---
-Database Setup
+
+# Database Setup
+
 Before running the project, import the provided dataset files into your local database systems.
+
 ---
-MySQL Setup
+
+## MySQL Setup
+
 Open MySQL Workbench
 
 Create a database named:
+
+```sql
 CREATE DATABASE patient360;
+```
 
 Import the provided MySQL dataset file into the patient360 database.
+
 ---
-MongoDB Setup
+
+## MongoDB Setup
+
 Open MongoDB Compass
 
 Create or use the database:
+
+```txt
 Patient_360
+```
 
 Import the provided MongoDB dataset/collections.
+
 ---
-Backend Setup
-2. Create Virtual Environment
+
+# Backend Setup
+
+## 2. Create Virtual Environment
+
+```bash
 cd backend
 python -m venv .venv
+```
 
-3. Activate Virtual Environment
+---
+
+## 3. Activate Virtual Environment
+
+```bash
 .venv\Scripts\activate
+```
 
-4. Install Backend Dependencies
+---
+
+## 4. Install Backend Dependencies
+
+```bash
 pip install fastapi
 pip install uvicorn
 pip install mysql-connector-python
 pip install pymongo
+```
 
-5. Configure Database Connection
+---
+
+## 5. Configure Database Connection
 
 Update the database configuration inside:
+
+```txt
 backend/databases/mysql_conn.py
+```
+
 and
+
+```txt
 backend/databases/mongodb_conn.py
+```
 
 Configure your local database credentials before running the backend server.
 
-6. Run Backend Server
+---
+
+## 6. Run Backend Server
+
+```bash
 uvicorn main:app --reload
+```
 
 Backend API URL:
-http://localhost:8000
 
-7. Install Frontend Dependencies
+```txt
+http://localhost:8000
+```
+
+---
+
+## 7. Install Frontend Dependencies
+
+```bash
 cd frontend
 npm install
+```
 
-8. Run Frontend
+---
+
+## 8. Run Frontend
+
+```bash
 npm run dev
+```
 
 Frontend URL:
+
+```txt
 http://localhost:5173
+```
 
+---
 
-
-Project Structure
+# Project Structure
 
 ```txt
 patient-360/
@@ -155,18 +229,67 @@ patient-360/
 │   │   ├── pages/
 │   │   │   ├── css/
 │   │   │   │   ├── Appointments/
+│   │   │   │   │   ├── AddAppointmentModal.css
+│   │   │   │   │   ├── Appointments.css
+│   │   │   │   │   ├── DeleteAppointmentModal.css
+│   │   │   │   │   └── EditAppointmentModal.css
+│   │   │   │   │
 │   │   │   │   ├── Billing/
+│   │   │   │   │   ├── AddBillingModal.css
+│   │   │   │   │   ├── Billing.css
+│   │   │   │   │   ├── DeleteBillingModal.css
+│   │   │   │   │   └── EditBillingModal.css
+│   │   │   │   │
 │   │   │   │   ├── Dashboard/
+│   │   │   │   │   └── Dashboard.css
+│   │   │   │   │
 │   │   │   │   ├── Doctors/
+│   │   │   │   │   ├── AddDoctorModal.css
+│   │   │   │   │   ├── DeleteDoctorModal.css
+│   │   │   │   │   ├── Doctors.css
+│   │   │   │   │   └── EditDoctorModal.css
+│   │   │   │   │
 │   │   │   │   ├── Patients/
+│   │   │   │   │   ├── AddPatientModal.css
+│   │   │   │   │   ├── DeletePatientModal.css
+│   │   │   │   │   ├── EditPatientModal.css
+│   │   │   │   │   ├── MedicalRecordsModal.css
+│   │   │   │   │   ├── PatientDetailsModal.css
+│   │   │   │   │   └── Patients.css
+│   │   │   │   │
 │   │   │   │   └── Visits/
+│   │   │   │       ├── AddVisitModal.css
+│   │   │   │       ├── DeleteVisitModal.css
+│   │   │   │       ├── EditVisitModal.css
+│   │   │   │       └── Visits.css
 │   │   │   │
 │   │   │   ├── modal/
 │   │   │   │   ├── Appointments/
+│   │   │   │   │   ├── AddAppointmentModal.jsx
+│   │   │   │   │   ├── DeleteAppointmentModal.jsx
+│   │   │   │   │   └── EditAppointmentModal.jsx
+│   │   │   │   │
 │   │   │   │   ├── Billing/
+│   │   │   │   │   ├── AddBillingModal.jsx
+│   │   │   │   │   ├── DeleteBillingModal.jsx
+│   │   │   │   │   └── EditBillingModal.jsx
+│   │   │   │   │
 │   │   │   │   ├── Doctors/
+│   │   │   │   │   ├── AddDoctorModal.jsx
+│   │   │   │   │   ├── DeleteDoctorModal.jsx
+│   │   │   │   │   └── EditDoctorModal.jsx
+│   │   │   │   │
 │   │   │   │   ├── Patients/
+│   │   │   │   │   ├── AddPatientModal.jsx
+│   │   │   │   │   ├── DeletePatientModal.jsx
+│   │   │   │   │   ├── EditPatientModal.jsx
+│   │   │   │   │   ├── MedicalRecordsModal.jsx
+│   │   │   │   │   └── PatientDetailsModal.jsx
+│   │   │   │   │
 │   │   │   │   └── Visits/
+│   │   │   │       ├── AddVisitModal.jsx
+│   │   │   │       ├── DeleteVisitModal.jsx
+│   │   │   │       └── EditVisitModal.jsx
 │   │   │   │
 │   │   │   ├── Appointments.jsx
 │   │   │   ├── Billing.jsx
