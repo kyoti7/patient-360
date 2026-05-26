@@ -25,28 +25,6 @@ MySQL Workbench or MySQL Server
 MongoDB Compass or MongoDB Community Server
 Visual Studio Code
 ---
-Project Structure
-
-patient-360/
-│
-├── backend/
-│   ├── databases/
-│   ├── routes/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .gitignore
-└── README.md
-
-
-
----
 Installation Guide
 ---
 Clone the Repository
@@ -110,3 +88,117 @@ npm run dev
 
 Frontend URL:
 http://localhost:5173
+
+
+
+Project Structure
+
+```txt
+patient-360/
+│
+├── backend/
+│   ├── __pycache__/
+│   │
+│   ├── databases/
+│   │   ├── __pycache__/
+│   │   ├── mongodb_conn.py
+│   │   └── mysql_conn.py
+│   │
+│   ├── routes/
+│   │   ├── __pycache__/
+│   │   ├── appointment.py
+│   │   ├── billing.py
+│   │   ├── doctor.py
+│   │   ├── medical_records.py
+│   │   ├── patient.py
+│   │   └── visit.py
+│   │
+│   └── main.py
+│
+├── frontend/
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── hero.png
+│   │   │   ├── logo.png
+│   │   │   └── vite.svg
+│   │   │
+│   │   ├── components/
+│   │   │   ├── css/
+│   │   │   │   ├── Button.css
+│   │   │   │   ├── DashboardCards.css
+│   │   │   │   ├── Layout.css
+│   │   │   │   ├── Modal.css
+│   │   │   │   ├── Navbar.css
+│   │   │   │   ├── SearchInput.css
+│   │   │   │   ├── Sidebar.css
+│   │   │   │   ├── StatusBadge.css
+│   │   │   │   └── Table.css
+│   │   │   │
+│   │   │   └── ui/
+│   │   │       ├── Button.jsx
+│   │   │       ├── Card.jsx
+│   │   │       ├── Modal.jsx
+│   │   │       ├── Navbar.jsx
+│   │   │       ├── SearchInput.jsx
+│   │   │       ├── Sidebar.jsx
+│   │   │       ├── StatusBadge.jsx
+│   │   │       └── Table.jsx
+│   │   │
+│   │   ├── layouts/
+│   │   │   └── MainLayout.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── css/
+│   │   │   │   ├── Appointments/
+│   │   │   │   ├── Billing/
+│   │   │   │   ├── Dashboard/
+│   │   │   │   ├── Doctors/
+│   │   │   │   ├── Patients/
+│   │   │   │   └── Visits/
+│   │   │   │
+│   │   │   ├── modal/
+│   │   │   │   ├── Appointments/
+│   │   │   │   ├── Billing/
+│   │   │   │   ├── Doctors/
+│   │   │   │   ├── Patients/
+│   │   │   │   └── Visits/
+│   │   │   │
+│   │   │   ├── Appointments.jsx
+│   │   │   ├── Billing.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Doctors.jsx
+│   │   │   ├── Patients.jsx
+│   │   │   └── Visits.jsx
+│   │   │
+│   │   ├── routes/
+│   │   │   └── AppRoutes.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.jsx
+│   │   │   ├── appointmentService.js
+│   │   │   ├── billingService.js
+│   │   │   ├── doctorService.js
+│   │   │   ├── medicalRecordService.js
+│   │   │   ├── patientService.js
+│   │   │   └── visitService.js
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .env
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
+└── README.md
+```
