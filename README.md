@@ -325,3 +325,189 @@ patient-360/
 ├── .gitignore
 └── README.md
 ```
+
+
+
+
+## Snippets
+
+### FastAPI Application Initialization
+
+```python
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from routes import patient, doctor, appointment, visit, billing, medical_records
+
+app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(patient.router)
+app.include_router(doctor.router)
+app.include_router(appointment.router)
+app.include_router(visit.router)
+app.include_router(billing.router)
+app.include_router(medical_records.router)
+```
+
+This initializes the FastAPI backend server and registers all API routes used in the system. The CORS middleware also allows the React frontend to communicate with the backend properly.
+
+---
+
+### MySQL Database Connection Pool
+
+```python
+db_config = {
+    "host": "localhost",
+    "user": "root",
+    "password": "12345",
+    "database": "patient360",
+}
+
+connection_pool = pooling.MySQLConnectionPool(
+    pool_name="mypool",
+    pool_size=5,
+    **db_config
+)
+```
+
+This creates a MySQL connection pool for handling multiple database requests efficiently. Instead of opening a new connection every time, the system reuses existing connections to improve performance.
+
+---
+
+### MongoDB Connection
+
+```python
+from pymongo import MongoClient
+
+client = MongoClient("mongodb://localhost:27017/")
+mongo_db = client["Patient_360"]
+```
+
+This connects the backend application to MongoDB. MongoDB is used for storing flexible medical documents such as clinical notes, diagnostic records, and treatment plans.
+
+---
+
+### Patient Creation API Endpoint
+
+```python
+@router.post("/patient", status_code=201)
+def create_patient(payload: PatientCreate):
+    with get_cursor() as cursor:
+        cursor.execute(
+            """
+            INSERT INTO Patients
+            (
+                PatientID,
+                PatientName,
+                BirthDate
+            )
+            VALUES (%s, %s, %s)
+            """,
+            (
+                new_patient_id,
+                payload.PatientName,
+                payload.BirthDate
+            )
+        )
+```
+
+This API endpoint inserts a new patient record into the MySQL database. It handles patient registration and stores important patient information inside the system.
+
+---
+
+### Unified Patient Medical Timeline
+
+```python
+timeline = sorted(
+    [event for event in (timeline_mysql + timeline_mongo)
+     if event.get("EventDate")],
+    key=lambda x: x["EventDate"],
+    reverse=True
+)
+```
+
+This combines patient events coming from both MySQL and MongoDB into one timeline. It helps organize appointments, billing records, visits, and medical documents in chronological order.
+
+---
+
+### MongoDB Clinical Notes API
+
+```python
+@router.post("/clinical-notes", status_code=201)
+async def create_clinical_note(payload: ClinicalNoteCreate):
+    note = payload.model_dump()
+    note["CreatedAt"] = datetime.utcnow()
+    mongo_db.ClinicalNotes.insert_one(note)
+```
+
+This endpoint stores clinical notes inside MongoDB. It is used for handling unstructured medical data such as diagnoses, symptoms, prescriptions, and doctor notes.
+
+---
+
+### Axios API Client Configuration
+
+```javascript
+const api = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE_URL,
+  headers: {
+    "Content-Type": "application/json",
+  },
+  timeout: 10000,
+});
+```
+
+This configures the Axios client used by the React frontend. It centralizes API communication between the frontend and backend server.
+
+---
+
+### Frontend Patient Service Layer
+
+```javascript
+export const getPatients = async () => {
+  const response = await api.get("/patients");
+  return response.data;
+};
+
+export const createPatient = async (payload) => {
+  const response = await api.post("/patient", payload);
+  return response.data;
+};
+```
+
+This service layer handles API requests related to patient management. It keeps the frontend code cleaner and separates API logic from UI components.
+
+---
+
+### React Application Routing
+
+```javascript
+<Routes>
+  <Route path="/" element={<MainLayout />}>
+    <Route index element={<Dashboard />} />
+    <Route path="patients" element={<Patients />} />
+    <Route path="appointments" element={<Appointments />} />
+  </Route>
+</Routes>
+```
+
+This defines the navigation structure of the React application using React Router. It allows users to move between pages such as Dashboard, Patients, and Appointments.
+
+---
+
+### Dashboard Analytics Logic
+
+```javascript
+const todayAppointments = appointments.filter((appt) => {
+  const today = new Date().toISOString().split("T")[0];
+  return new Date(appt.ApptDate).toISOString().split("T")[0] === today;
+});
+```
+
+This filters appointment records to display only the appointments scheduled for the current day. The result is used for real-time dashboard statistics and monitoring.
