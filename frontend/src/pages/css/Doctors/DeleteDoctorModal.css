@@ -1,0 +1,17 @@
+.delete-doctor-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.delete-doctor-content p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.delete-doctor-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}

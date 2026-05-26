@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffbf0;
+  color: #111827;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Buttons */
+.primary-btn,
+.add-btn {
+  background: #16a34a;
+  color: white;
+}
+
+.primary-btn:hover,
+.add-btn:hover {
+  background: #15803d;
+}
+
+.secondary-btn,
+.edit-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.secondary-btn:hover,
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn,
+.danger-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.delete-btn:hover,
+.danger-btn:hover {
+  background: #b91c1c;
+}

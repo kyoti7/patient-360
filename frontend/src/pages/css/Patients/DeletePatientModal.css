@@ -1,0 +1,45 @@
+.delete-patient-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.delete-patient-content p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.delete-patient-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.delete-patient-actions button {
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-patient-actions .secondary-btn {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.delete-patient-actions .secondary-btn:hover {
+  background: #d1d5db;
+}
+
+.delete-patient-actions .danger-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.delete-patient-actions .danger-btn:hover {
+  background: #b91c1c;
+}

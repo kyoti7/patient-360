@@ -1,0 +1,45 @@
+.delete-appointment-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.delete-appointment-content p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+.delete-appointment-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.delete-appointment-actions button {
+  height: 42px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.delete-appointment-actions button {
+  background: #e5e7eb;
+  color: #374151;
+}
+
+.delete-appointment-actions button:hover {
+  background: #d1d5db;
+}
+
+.delete-appointment-actions .danger-btn {
+  background: #dc2626;
+  color: white;
+}
+
+.delete-appointment-actions .danger-btn:hover {
+  background: #b91c1c;
+}

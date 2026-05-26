@@ -1,0 +1,56 @@
+.dashboard-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.card-title {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.card-value {
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.card-subtitle {
+  font-size: 13px;
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.green-card .card-value {
+  color: #16a34a;
+}
+
+.blue-card .card-value {
+  color: #2563eb;
+}
+
+.red-card .card-value {
+  color: #dc2626;
+}
+
+.yellow-card .card-value {
+  color: #ca8a04;
+}
