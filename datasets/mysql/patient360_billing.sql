@@ -1,0 +1,59 @@
+-- MySQL dump 10.13  Distrib 8.0.45, for Win64 (x86_64)
+--
+-- Host: 127.0.0.1    Database: patient360
+-- ------------------------------------------------------
+-- Server version	8.0.44
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `billing`
+--
+
+DROP TABLE IF EXISTS `billing`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `billing` (
+  `BillingID` varchar(10) NOT NULL,
+  `VisitID` varchar(10) DEFAULT NULL,
+  `PatientID` varchar(10) DEFAULT NULL,
+  `TotalAmount` decimal(12,2) DEFAULT NULL,
+  `PaymentStatus` enum('Paid','Pending','Partially Paid') DEFAULT NULL,
+  `BillingDate` datetime DEFAULT NULL,
+  PRIMARY KEY (`BillingID`),
+  KEY `VisitID` (`VisitID`),
+  KEY `PatientID` (`PatientID`),
+  CONSTRAINT `billing_ibfk_1` FOREIGN KEY (`VisitID`) REFERENCES `visits` (`VisitID`),
+  CONSTRAINT `billing_ibfk_2` FOREIGN KEY (`PatientID`) REFERENCES `patients` (`PatientID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `billing`
+--
+
+LOCK TABLES `billing` WRITE;
+/*!40000 ALTER TABLE `billing` DISABLE KEYS */;
+INSERT INTO `billing` VALUES ('B001','V001','P001',1500.00,'Paid','2026-05-01 11:00:00'),('B002','V002','P002',800.00,'Pending','2026-05-02 12:00:00'),('B003','V003','P003',2000.00,'Paid','2026-05-03 13:00:00'),('B004','V004','P004',1500.00,'Paid','2026-05-04 14:00:00'),('B005','V005','P005',900.00,'Pending','2026-05-05 15:00:00'),('B006','V006','P006',1600.00,'Paid','2026-05-06 16:00:00'),('B007','V007','P007',850.00,'Partially Paid','2026-05-07 17:00:00'),('B008','V008','P008',1400.00,'Paid','2026-05-08 18:00:00'),('B009','V009','P009',2500.00,'Paid','2026-05-09 11:00:00'),('B010','V010','P010',1500.00,'Paid','2026-05-10 12:00:00'),('B011','V011','P011',950.00,'Pending','2026-05-11 13:00:00'),('B012','V012','P012',1700.00,'Paid','2026-05-12 14:00:00'),('B013','V013','P013',800.00,'Pending','2026-05-13 15:00:00'),('B014','V014','P014',1600.00,'Paid','2026-05-14 16:00:00'),('B015','V015','P015',2600.00,'Paid','2026-05-15 17:00:00'),('B016','V016','P016',1550.00,'Paid','2026-05-16 18:00:00'),('B017','V017','P017',900.00,'Pending','2026-05-17 11:00:00'),('B018','V018','P018',1500.00,'Paid','2026-05-18 12:00:00'),('B019','V019','P019',850.00,'Partially Paid','2026-05-19 13:00:00'),('B020','V020','P020',1700.00,'Paid','2026-05-20 14:00:00'),('B021','V021','P021',2700.00,'Paid','2026-05-21 15:00:00'),('B022','V022','P022',1500.00,'Paid','2026-05-22 16:00:00'),('B023','V023','P023',950.00,'Pending','2026-05-23 17:00:00'),('B024','V024','P024',1600.00,'Paid','2026-05-24 18:00:00'),('B025','V025','P025',800.00,'Pending','2026-05-25 11:00:00'),('B026','V026','P026',1750.00,'Paid','2026-05-26 12:00:00'),('B027','V027','P027',2800.00,'Paid','2026-05-27 13:00:00'),('B028','V028','P028',1500.00,'Paid','2026-05-28 14:00:00'),('B029','V029','P029',900.00,'Pending','2026-05-29 15:00:00'),('B030','V030','P030',2000.00,'Paid','2026-05-30 16:00:00'),('B3915','V031','P031',1500.00,'Pending','2026-05-15 20:45:59');
+/*!40000 ALTER TABLE `billing` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2026-05-16 11:44:18

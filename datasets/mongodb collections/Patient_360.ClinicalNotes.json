@@ -1,0 +1,659 @@
+[{
+  "_id": {
+    "$oid": "69fb6132a947b9ec40f5d854"
+  },
+  "PatientID": "P001",
+  "VisitID": "V001",
+  "DocID": "DOC01",
+  "VisitDate": "2026-05-01",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Persistent fever",
+  "Symptoms": [
+    "Fever",
+    "Fatigue"
+  ],
+  "Diagnosis": "Viral Infection",
+  "ClinicalNotes": "Patient experiencing mild fever and weakness for three days.",
+  "Prescriptions": [
+    "Paracetamol 500mg"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d857"
+  },
+  "PatientID": "P003",
+  "VisitID": "V003",
+  "DocID": "DOC03",
+  "VisitDate": "2026-05-03",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Difficulty breathing",
+  "Symptoms": [
+    "Cough",
+    "Wheezing"
+  ],
+  "Diagnosis": "Bronchitis",
+  "ClinicalNotes": "Mild airway inflammation detected.",
+  "Prescriptions": [
+    "Salbutamol Inhaler"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d858"
+  },
+  "PatientID": "P003",
+  "VisitID": "V003",
+  "DocID": "DOC03",
+  "VisitDate": "2026-05-03",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Difficulty breathing",
+  "Symptoms": [
+    "Cough",
+    "Wheezing"
+  ],
+  "Diagnosis": "Bronchitis",
+  "ClinicalNotes": "Mild airway inflammation detected.",
+  "Prescriptions": [
+    "Salbutamol Inhaler"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d859"
+  },
+  "PatientID": "P004",
+  "VisitID": "V004",
+  "DocID": "DOC04",
+  "VisitDate": "2026-05-04",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Frequent urination",
+  "Symptoms": [
+    "Thirst",
+    "Fatigue"
+  ],
+  "Diagnosis": "Type 2 Diabetes",
+  "ClinicalNotes": "Elevated glucose level observed.",
+  "Prescriptions": [
+    "Metformin 500mg"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85a"
+  },
+  "PatientID": "P005",
+  "VisitID": "V005",
+  "DocID": "DOC05",
+  "VisitDate": "2026-05-05",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Severe dehydration",
+  "Symptoms": [
+    "Weakness",
+    "Dry mouth"
+  ],
+  "Diagnosis": "Acute Dehydration",
+  "ClinicalNotes": "Immediate IV fluid therapy recommended.",
+  "Prescriptions": [
+    "Oral Rehydration Solution"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85b"
+  },
+  "PatientID": "P006",
+  "VisitID": "V006",
+  "DocID": "DOC06",
+  "VisitDate": "2026-05-06",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Sore throat",
+  "Symptoms": [
+    "Fever",
+    "Throat pain"
+  ],
+  "Diagnosis": "Tonsillitis",
+  "ClinicalNotes": "Mild tonsil inflammation present.",
+  "Prescriptions": [
+    "Amoxicillin"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85c"
+  },
+  "PatientID": "P007",
+  "VisitID": "V007",
+  "DocID": "DOC07",
+  "VisitDate": "2026-05-07",
+  "CheckUp_Type": "Routine Checkup",
+  "ChiefComplaint": "Abdominal pain",
+  "Symptoms": [
+    "Acid reflux",
+    "Stomach discomfort"
+  ],
+  "Diagnosis": "Gastritis",
+  "ClinicalNotes": "Likely dietary-triggered gastric irritation.",
+  "Prescriptions": [
+    "Omeprazole 20mg"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85d"
+  },
+  "PatientID": "P008",
+  "VisitID": "V008",
+  "DocID": "DOC08",
+  "VisitDate": "2026-05-08",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Lower back pain",
+  "Symptoms": [
+    "Muscle stiffness"
+  ],
+  "Diagnosis": "Back Strain",
+  "ClinicalNotes": "Likely posture-related strain.",
+  "Prescriptions": [
+    "Ibuprofen 400mg"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85e"
+  },
+  "PatientID": "P009",
+  "VisitID": "V009",
+  "DocID": "DOC09",
+  "VisitDate": "2026-05-09",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Severe headache",
+  "Symptoms": [
+    "Headache",
+    "Dizziness"
+  ],
+  "Diagnosis": "Migraine",
+  "ClinicalNotes": "Symptoms aggravated by bright light.",
+  "Prescriptions": [
+    "Paracetamol"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d85f"
+  },
+  "PatientID": "P010",
+  "VisitID": "V010",
+  "DocID": "DOC10",
+  "VisitDate": "2026-05-10",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Skin redness",
+  "Symptoms": [
+    "Rash",
+    "Itching"
+  ],
+  "Diagnosis": "Contact Dermatitis",
+  "ClinicalNotes": "Possible detergent allergy reaction.",
+  "Prescriptions": [
+    "Hydrocortisone Cream"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d860"
+  },
+  "PatientID": "P011",
+  "VisitID": "V011",
+  "DocID": "DOC11",
+  "VisitDate": "2026-05-11",
+  "CheckUp_Type": "Follow Up",
+  "ChiefComplaint": "Persistent fatigue",
+  "Symptoms": [
+    "Body weakness",
+    "Low appetite"
+  ],
+  "Diagnosis": "Post Viral Fatigue",
+  "ClinicalNotes": "Patient recovering from viral illness, advised observation.",
+  "Prescriptions": [
+    "Multivitamins"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d861"
+  },
+  "PatientID": "P012",
+  "VisitID": "V012",
+  "DocID": "DOC12",
+  "VisitDate": "2026-05-12",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Irregular heartbeat",
+  "Symptoms": [
+    "Palpitations",
+    "Lightheadedness"
+  ],
+  "Diagnosis": "Cardiac Arrhythmia",
+  "ClinicalNotes": "Irregular pulse observed during assessment.",
+  "Prescriptions": [
+    "Metoprolol"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d862"
+  },
+  "PatientID": "P013",
+  "VisitID": "V013",
+  "DocID": "DOC13",
+  "VisitDate": "2026-05-13",
+  "CheckUp_Type": "Routine Checkup",
+  "ChiefComplaint": "Nighttime wheezing",
+  "Symptoms": [
+    "Wheezing",
+    "Shortness of breath"
+  ],
+  "Diagnosis": "Mild Asthma",
+  "ClinicalNotes": "Respiratory symptoms worsen at night.",
+  "Prescriptions": [
+    "Budesonide Inhaler"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d863"
+  },
+  "PatientID": "P014",
+  "VisitID": "V014",
+  "DocID": "DOC14",
+  "VisitDate": "2026-05-14",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Blurred vision",
+  "Symptoms": [
+    "Frequent thirst",
+    "Dizziness"
+  ],
+  "Diagnosis": "Hyperglycemia",
+  "ClinicalNotes": "Elevated fasting glucose detected.",
+  "Prescriptions": [
+    "Insulin Glargine"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d864"
+  },
+  "PatientID": "P015",
+  "VisitID": "V015",
+  "DocID": "DOC15",
+  "VisitDate": "2026-05-15",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Rapid breathing",
+  "Symptoms": [
+    "Panic",
+    "Chest discomfort"
+  ],
+  "Diagnosis": "Acute Panic Episode",
+  "ClinicalNotes": "No cardiac findings, symptoms stress-induced.",
+  "Prescriptions": [
+    "Alprazolam"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d865"
+  },
+  "PatientID": "P016",
+  "VisitID": "V016",
+  "DocID": "DOC16",
+  "VisitDate": "2026-05-16",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "High fever",
+  "Symptoms": [
+    "Fever",
+    "Body pain"
+  ],
+  "Diagnosis": "Influenza",
+  "ClinicalNotes": "Positive influenza screening.",
+  "Prescriptions": [
+    "Oseltamivir"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d866"
+  },
+  "PatientID": "P017",
+  "VisitID": "V017",
+  "DocID": "DOC17",
+  "VisitDate": "2026-05-17",
+  "CheckUp_Type": "Follow Up",
+  "ChiefComplaint": "Heartburn",
+  "Symptoms": [
+    "Burning sensation",
+    "Nausea"
+  ],
+  "Diagnosis": "GERD",
+  "ClinicalNotes": "Acid reflux symptoms persistent after meals.",
+  "Prescriptions": [
+    "Pantoprazole"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d867"
+  },
+  "PatientID": "P018",
+  "VisitID": "V018",
+  "DocID": "DOC18",
+  "VisitDate": "2026-05-18",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Knee pain",
+  "Symptoms": [
+    "Joint stiffness",
+    "Swelling"
+  ],
+  "Diagnosis": "Early Osteoarthritis",
+  "ClinicalNotes": "Mild joint degeneration suspected.",
+  "Prescriptions": [
+    "Celecoxib"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d868"
+  },
+  "PatientID": "P019",
+  "VisitID": "V019",
+  "DocID": "DOC19",
+  "VisitDate": "2026-05-19",
+  "CheckUp_Type": "Routine Checkup",
+  "ChiefComplaint": "Loss of balance",
+  "Symptoms": [
+    "Vertigo",
+    "Nausea"
+  ],
+  "Diagnosis": "Vestibular Dysfunction",
+  "ClinicalNotes": "Likely inner ear related imbalance.",
+  "Prescriptions": [
+    "Betahistine"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d869"
+  },
+  "PatientID": "P020",
+  "VisitID": "V020",
+  "DocID": "DOC20",
+  "VisitDate": "2026-05-20",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Dry itchy rash",
+  "Symptoms": [
+    "Redness",
+    "Skin irritation"
+  ],
+  "Diagnosis": "Eczema",
+  "ClinicalNotes": "Localized inflammatory skin reaction observed.",
+  "Prescriptions": [
+    "Tacrolimus Ointment"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86a"
+  },
+  "PatientID": "P021",
+  "VisitID": "V021",
+  "DocID": "DOC21",
+  "VisitDate": "2026-05-21",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Severe body weakness",
+  "Symptoms": [
+    "Fatigue",
+    "Loss of appetite",
+    "Mild fever"
+  ],
+  "Diagnosis": "Acute Viral Syndrome",
+  "ClinicalNotes": "Patient presents generalized weakness likely due to viral exposure.",
+  "Prescriptions": [
+    "Vitamin C",
+    "Paracetamol"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86b"
+  },
+  "PatientID": "P022",
+  "VisitID": "V022",
+  "DocID": "DOC22",
+  "VisitDate": "2026-05-22",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Irregular heartbeat",
+  "Symptoms": [
+    "Palpitations",
+    "Chest discomfort"
+  ],
+  "Diagnosis": "Cardiac Arrhythmia",
+  "ClinicalNotes": "Irregular pulse observed during assessment.",
+  "Prescriptions": [
+    "Bisoprolol 5mg"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86c"
+  },
+  "PatientID": "P023",
+  "VisitID": "V023",
+  "DocID": "DOC23",
+  "VisitDate": "2026-05-23",
+  "CheckUp_Type": "Follow-up",
+  "ChiefComplaint": "Persistent wheezing",
+  "Symptoms": [
+    "Shortness of breath",
+    "Dry cough"
+  ],
+  "Diagnosis": "Asthma",
+  "ClinicalNotes": "Symptoms triggered by environmental allergens.",
+  "Prescriptions": [
+    "Budesonide Inhaler"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86d"
+  },
+  "PatientID": "P024",
+  "VisitID": "V024",
+  "DocID": "DOC24",
+  "VisitDate": "2026-05-24",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Unexpected weight loss",
+  "Symptoms": [
+    "Frequent urination",
+    "Blurred vision"
+  ],
+  "Diagnosis": "Uncontrolled Diabetes",
+  "ClinicalNotes": "Requires immediate glucose management.",
+  "Prescriptions": [
+    "Insulin"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86e"
+  },
+  "PatientID": "P025",
+  "VisitID": "V025",
+  "DocID": "DOC25",
+  "VisitDate": "2026-05-25",
+  "CheckUp_Type": "Routine Checkup",
+  "ChiefComplaint": "Sharp abdominal cramps",
+  "Symptoms": [
+    "Nausea",
+    "Bloating"
+  ],
+  "Diagnosis": "Gastroenteritis",
+  "ClinicalNotes": "Likely food-related irritation.",
+  "Prescriptions": [
+    "Loperamide"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d86f"
+  },
+  "PatientID": "P026",
+  "VisitID": "V026",
+  "DocID": "DOC26",
+  "VisitDate": "2026-05-26",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Persistent ear pain",
+  "Symptoms": [
+    "Fever",
+    "Irritability"
+  ],
+  "Diagnosis": "Otitis Media",
+  "ClinicalNotes": "Signs of middle ear infection.",
+  "Prescriptions": [
+    "Cefuroxime"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d870"
+  },
+  "PatientID": "P027",
+  "VisitID": "V027",
+  "DocID": "DOC27",
+  "VisitDate": "2026-05-27",
+  "CheckUp_Type": "Emergency",
+  "ChiefComplaint": "Sudden knee pain",
+  "Symptoms": [
+    "Swelling",
+    "Limited movement"
+  ],
+  "Diagnosis": "Ligament Strain",
+  "ClinicalNotes": "Possible sports-related injury.",
+  "Prescriptions": [
+    "Diclofenac"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d871"
+  },
+  "PatientID": "P028",
+  "VisitID": "V028",
+  "DocID": "DOC28",
+  "VisitDate": "2026-05-28",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Episodes of dizziness",
+  "Symptoms": [
+    "Vertigo",
+    "Nausea"
+  ],
+  "Diagnosis": "Benign Positional Vertigo",
+  "ClinicalNotes": "Triggered by sudden head movement.",
+  "Prescriptions": [
+    "Betahistine"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d872"
+  },
+  "PatientID": "P029",
+  "VisitID": "V029",
+  "DocID": "DOC29",
+  "VisitDate": "2026-05-29",
+  "CheckUp_Type": "Follow-up",
+  "ChiefComplaint": "Recurring numbness",
+  "Symptoms": [
+    "Tingling",
+    "Muscle weakness"
+  ],
+  "Diagnosis": "Peripheral Neuropathy",
+  "ClinicalNotes": "Needs nerve conduction monitoring.",
+  "Prescriptions": [
+    "Gabapentin"
+  ],
+  "FollowUp_Required": true
+},
+{
+  "_id": {
+    "$oid": "69fb62a6a947b9ec40f5d873"
+  },
+  "PatientID": "P030",
+  "VisitID": "V030",
+  "DocID": "DOC30",
+  "VisitDate": "2026-05-30",
+  "CheckUp_Type": "Consultation",
+  "ChiefComplaint": "Facial skin irritation",
+  "Symptoms": [
+    "Dryness",
+    "Red patches"
+  ],
+  "Diagnosis": "Eczema",
+  "ClinicalNotes": "Chronic skin dryness observed.",
+  "Prescriptions": [
+    "Tacrolimus Ointment"
+  ],
+  "FollowUp_Required": false
+},
+{
+  "_id": {
+    "$oid": "6a0710ce53fbadae44b38c8f"
+  },
+  "PatientID": "P031",
+  "notes": []
+},
+{
+  "_id": {
+    "$oid": "6a0716f953fbadae44b38c92"
+  },
+  "PatientID": "P031",
+  "VisitID": "V031",
+  "DocID": "DOC031",
+  "VisitDate": {
+    "$date": "2026-05-15T12:50:01.501Z"
+  },
+  "CheckUp_Type": "Check",
+  "ChiefComplaint": "Chief",
+  "Symptoms": "Cough, Fever",
+  "Diagnosis": "Colds",
+  "ClinicalNotes": "Rest",
+  "Prescriptions": "Water",
+  "FollowUp_Required": true,
+  "CreatedAt": {
+    "$date": "2026-05-15T12:52:09.267Z"
+  }
+}]

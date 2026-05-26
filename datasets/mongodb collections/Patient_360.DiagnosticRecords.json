@@ -1,0 +1,475 @@
+[{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d876"
+  },
+  "PatientID": "P001",
+  "VisitID": "V001",
+  "TestType": "CBC",
+  "VitalSigns": {
+    "BloodPressure": "118/78",
+    "Temperature": 38.1,
+    "HeartRate": 90
+  },
+  "Findings": "Mild viral infection",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d877"
+  },
+  "PatientID": "P002",
+  "VisitID": "V002",
+  "TestType": "ECG",
+  "VitalSigns": {
+    "BloodPressure": "145/95",
+    "Temperature": 36.8,
+    "HeartRate": 88
+  },
+  "Findings": "Elevated blood pressure",
+  "ScanResult": "Minor irregularity"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d878"
+  },
+  "PatientID": "P003",
+  "VisitID": "V003",
+  "TestType": "Chest X-Ray",
+  "VitalSigns": {
+    "BloodPressure": "125/82",
+    "Temperature": 37.7,
+    "HeartRate": 96
+  },
+  "Findings": "Bronchial inflammation",
+  "ScanResult": "Mild airway thickening"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d879"
+  },
+  "PatientID": "P004",
+  "VisitID": "V004",
+  "TestType": "Blood Glucose Test",
+  "VitalSigns": {
+    "BloodPressure": "130/85",
+    "Temperature": 36.7,
+    "HeartRate": 82
+  },
+  "Findings": "High glucose",
+  "ScanResult": "Diabetic range"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87a"
+  },
+  "PatientID": "P005",
+  "VisitID": "V005",
+  "TestType": "Electrolyte Panel",
+  "VitalSigns": {
+    "BloodPressure": "100/65",
+    "Temperature": 37.5,
+    "HeartRate": 110
+  },
+  "Findings": "Low hydration level",
+  "ScanResult": "Critical"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87b"
+  },
+  "PatientID": "P006",
+  "VisitID": "V006",
+  "TestType": "CBC",
+  "VitalSigns": {
+    "BloodPressure": "105/70",
+    "Temperature": 38.3,
+    "HeartRate": 98
+  },
+  "Findings": "Bacterial infection indicators",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87c"
+  },
+  "PatientID": "P007",
+  "VisitID": "V007",
+  "TestType": "Abdominal Ultrasound",
+  "VitalSigns": {
+    "BloodPressure": "120/80",
+    "Temperature": 36.6,
+    "HeartRate": 76
+  },
+  "Findings": "Gastric irritation",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87d"
+  },
+  "PatientID": "P008",
+  "VisitID": "V008",
+  "TestType": "X-Ray",
+  "VitalSigns": {
+    "BloodPressure": "122/80",
+    "Temperature": 36.7,
+    "HeartRate": 74
+  },
+  "Findings": "Muscle strain",
+  "ScanResult": "No fracture"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87e"
+  },
+  "PatientID": "P009",
+  "VisitID": "V009",
+  "TestType": "Neurological Assessment",
+  "VitalSigns": {
+    "BloodPressure": "128/84",
+    "Temperature": 36.9,
+    "HeartRate": 86
+  },
+  "Findings": "Migraine indicators",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d87f"
+  },
+  "PatientID": "P010",
+  "VisitID": "V010",
+  "TestType": "Skin Patch Test",
+  "VitalSigns": {
+    "BloodPressure": "118/76",
+    "Temperature": 36.8,
+    "HeartRate": 72
+  },
+  "Findings": "Allergic skin response",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d880"
+  },
+  "PatientID": "P011",
+  "VisitID": "V011",
+  "TestType": "CBC",
+  "VitalSigns": {
+    "BloodPressure": "118/76",
+    "Temperature": 37.1,
+    "HeartRate": 80
+  },
+  "Findings": "Recovery stage from viral infection",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d881"
+  },
+  "PatientID": "P012",
+  "VisitID": "V012",
+  "TestType": "ECG",
+  "VitalSigns": {
+    "BloodPressure": "140/90",
+    "Temperature": 36.8,
+    "HeartRate": 108
+  },
+  "Findings": "Irregular cardiac rhythm",
+  "ScanResult": "Abnormal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d882"
+  },
+  "PatientID": "P013",
+  "VisitID": "V013",
+  "TestType": "Pulmonary Function Test",
+  "VitalSigns": {
+    "BloodPressure": "122/80",
+    "Temperature": 36.9,
+    "HeartRate": 94
+  },
+  "Findings": "Reduced airway flow",
+  "ScanResult": "Mild obstruction"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d883"
+  },
+  "PatientID": "P014",
+  "VisitID": "V014",
+  "TestType": "Blood Sugar Test",
+  "VitalSigns": {
+    "BloodPressure": "130/84",
+    "Temperature": 36.7,
+    "HeartRate": 86
+  },
+  "Findings": "Elevated glucose level",
+  "ScanResult": "High"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d884"
+  },
+  "PatientID": "P015",
+  "VisitID": "V015",
+  "TestType": "Cardiac Monitoring",
+  "VitalSigns": {
+    "BloodPressure": "145/92",
+    "Temperature": 36.8,
+    "HeartRate": 112
+  },
+  "Findings": "No structural abnormalities",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d885"
+  },
+  "PatientID": "P016",
+  "VisitID": "V016",
+  "TestType": "Influenza Screening",
+  "VitalSigns": {
+    "BloodPressure": "102/66",
+    "Temperature": 39,
+    "HeartRate": 104
+  },
+  "Findings": "Influenza positive",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d886"
+  },
+  "PatientID": "P017",
+  "VisitID": "V017",
+  "TestType": "Upper GI Assessment",
+  "VitalSigns": {
+    "BloodPressure": "120/78",
+    "Temperature": 36.7,
+    "HeartRate": 82
+  },
+  "Findings": "Acid reflux present",
+  "ScanResult": "Moderate irritation"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d887"
+  },
+  "PatientID": "P018",
+  "VisitID": "V018",
+  "TestType": "Joint X-Ray",
+  "VitalSigns": {
+    "BloodPressure": "126/82",
+    "Temperature": 36.8,
+    "HeartRate": 78
+  },
+  "Findings": "Early cartilage degeneration",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d888"
+  },
+  "PatientID": "P019",
+  "VisitID": "V019",
+  "TestType": "Balance Test",
+  "VitalSigns": {
+    "BloodPressure": "118/80",
+    "Temperature": 36.6,
+    "HeartRate": 76
+  },
+  "Findings": "Vestibular imbalance",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d889"
+  },
+  "PatientID": "P020",
+  "VisitID": "V020",
+  "TestType": "Skin Patch Test",
+  "VitalSigns": {
+    "BloodPressure": "116/74",
+    "Temperature": 36.7,
+    "HeartRate": 72
+  },
+  "Findings": "Inflammatory response",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88a"
+  },
+  "PatientID": "P021",
+  "VisitID": "V021",
+  "TestType": "CBC",
+  "VitalSigns": {
+    "BloodPressure": "110/72",
+    "Temperature": 38,
+    "HeartRate": 94
+  },
+  "Findings": "Active viral markers",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88b"
+  },
+  "PatientID": "P022",
+  "VisitID": "V022",
+  "TestType": "ECG",
+  "VitalSigns": {
+    "BloodPressure": "140/90",
+    "Temperature": 36.7,
+    "HeartRate": 102
+  },
+  "Findings": "Irregular rhythm",
+  "ScanResult": "Moderate abnormality"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88c"
+  },
+  "PatientID": "P023",
+  "VisitID": "V023",
+  "TestType": "Pulmonary Function Test",
+  "VitalSigns": {
+    "BloodPressure": "121/79",
+    "Temperature": 36.8,
+    "HeartRate": 95
+  },
+  "Findings": "Reduced airway flow",
+  "ScanResult": "Moderate obstruction"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88d"
+  },
+  "PatientID": "P024",
+  "VisitID": "V024",
+  "TestType": "HbA1c",
+  "VitalSigns": {
+    "BloodPressure": "133/86",
+    "Temperature": 36.9,
+    "HeartRate": 84
+  },
+  "Findings": "Poor glucose control",
+  "ScanResult": "Critical"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88e"
+  },
+  "PatientID": "P025",
+  "VisitID": "V025",
+  "TestType": "Stool Analysis",
+  "VitalSigns": {
+    "BloodPressure": "118/75",
+    "Temperature": 37.2,
+    "HeartRate": 88
+  },
+  "Findings": "Digestive tract irritation",
+  "ScanResult": "Normal"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d88f"
+  },
+  "PatientID": "P026",
+  "VisitID": "V026",
+  "TestType": "Ear Examination",
+  "VitalSigns": {
+    "BloodPressure": "103/68",
+    "Temperature": 38.2,
+    "HeartRate": 96
+  },
+  "Findings": "Middle ear inflammation",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d890"
+  },
+  "PatientID": "P027",
+  "VisitID": "V027",
+  "TestType": "MRI",
+  "VitalSigns": {
+    "BloodPressure": "124/81",
+    "Temperature": 36.7,
+    "HeartRate": 80
+  },
+  "Findings": "Ligament overstretching",
+  "ScanResult": "Minor tear"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d891"
+  },
+  "PatientID": "P028",
+  "VisitID": "V028",
+  "TestType": "Balance Assessment",
+  "VitalSigns": {
+    "BloodPressure": "119/77",
+    "Temperature": 36.6,
+    "HeartRate": 82
+  },
+  "Findings": "Vestibular imbalance",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d892"
+  },
+  "PatientID": "P029",
+  "VisitID": "V029",
+  "TestType": "Nerve Conduction Study",
+  "VitalSigns": {
+    "BloodPressure": "126/82",
+    "Temperature": 36.8,
+    "HeartRate": 85
+  },
+  "Findings": "Delayed nerve response",
+  "ScanResult": "Moderate impairment"
+},
+{
+  "_id": {
+    "$oid": "69fb6308a947b9ec40f5d893"
+  },
+  "PatientID": "P030",
+  "VisitID": "V030",
+  "TestType": "Skin Allergy Test",
+  "VitalSigns": {
+    "BloodPressure": "117/74",
+    "Temperature": 36.7,
+    "HeartRate": 73
+  },
+  "Findings": "Inflammatory skin response",
+  "ScanResult": "Positive"
+},
+{
+  "_id": {
+    "$oid": "6a0710ce53fbadae44b38c90"
+  },
+  "PatientID": "P031",
+  "records": []
+},
+{
+  "_id": {
+    "$oid": "6a07176b53fbadae44b38c93"
+  },
+  "PatientID": "P031",
+  "VisitID": "V031",
+  "TestType": "Test",
+  "VitalSigns": {
+    "BloodPressure": "Blood",
+    "Temperature": 35,
+    "HeartRate": 83
+  },
+  "Findings": "Find",
+  "ScanResult": "Scan",
+  "CreatedAt": {
+    "$date": "2026-05-15T12:54:03.360Z"
+  }
+}]

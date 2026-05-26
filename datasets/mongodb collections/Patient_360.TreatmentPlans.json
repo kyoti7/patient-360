@@ -1,0 +1,606 @@
+[{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d896"
+  },
+  "PatientID": "P001",
+  "VisitID": "V001",
+  "DocID": "DOC01",
+  "RecommendedActions": [
+    "Rest",
+    "Hydration"
+  ],
+  "Medications": [
+    {
+      "Name": "Paracetamol",
+      "Dosage": "500mg",
+      "Frequency": "Every 6 hours"
+    }
+  ],
+  "FollowUp_Date": "2026-05-08"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d897"
+  },
+  "PatientID": "P002",
+  "VisitID": "V002",
+  "DocID": "DOC02",
+  "RecommendedActions": [
+    "Low sodium diet",
+    "Daily BP monitoring"
+  ],
+  "Medications": [
+    {
+      "Name": "Losartan",
+      "Dosage": "50mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-16"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d898"
+  },
+  "PatientID": "P003",
+  "VisitID": "V003",
+  "DocID": "DOC03",
+  "RecommendedActions": [
+    "Avoid smoke exposure"
+  ],
+  "Medications": [
+    {
+      "Name": "Salbutamol",
+      "Dosage": "2 puffs",
+      "Frequency": "As needed"
+    }
+  ],
+  "FollowUp_Date": "2026-05-10"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d899"
+  },
+  "PatientID": "P004",
+  "VisitID": "V004",
+  "DocID": "DOC04",
+  "RecommendedActions": [
+    "Reduce sugar intake",
+    "Exercise"
+  ],
+  "Medications": [
+    {
+      "Name": "Metformin",
+      "Dosage": "500mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-18"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89a"
+  },
+  "PatientID": "P005",
+  "VisitID": "V005",
+  "DocID": "DOC05",
+  "RecommendedActions": [
+    "Increase fluid intake"
+  ],
+  "Medications": [
+    {
+      "Name": "ORS",
+      "Dosage": "1 sachet",
+      "Frequency": "Every 8 hours"
+    }
+  ],
+  "FollowUp_Date": "2026-05-07"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89b"
+  },
+  "PatientID": "P006",
+  "VisitID": "V006",
+  "DocID": "DOC06",
+  "RecommendedActions": [
+    "Complete antibiotic course"
+  ],
+  "Medications": [
+    {
+      "Name": "Amoxicillin",
+      "Dosage": "500mg",
+      "Frequency": "Three times daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-13"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89c"
+  },
+  "PatientID": "P007",
+  "VisitID": "V007",
+  "DocID": "DOC07",
+  "RecommendedActions": [
+    "Avoid spicy foods"
+  ],
+  "Medications": [
+    {
+      "Name": "Omeprazole",
+      "Dosage": "20mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-14"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89d"
+  },
+  "PatientID": "P008",
+  "VisitID": "V008",
+  "DocID": "DOC08",
+  "RecommendedActions": [
+    "Physical therapy"
+  ],
+  "Medications": [
+    {
+      "Name": "Ibuprofen",
+      "Dosage": "400mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-15"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89e"
+  },
+  "PatientID": "P009",
+  "VisitID": "V009",
+  "DocID": "DOC09",
+  "RecommendedActions": [
+    "Reduce screen exposure"
+  ],
+  "Medications": [
+    {
+      "Name": "Paracetamol",
+      "Dosage": "500mg",
+      "Frequency": "As needed"
+    }
+  ],
+  "FollowUp_Date": "2026-05-11"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d89f"
+  },
+  "PatientID": "P010",
+  "VisitID": "V010",
+  "DocID": "DOC10",
+  "RecommendedActions": [
+    "Avoid allergen exposure"
+  ],
+  "Medications": [
+    {
+      "Name": "Hydrocortisone Cream",
+      "Dosage": "Apply thin layer",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-17"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a0"
+  },
+  "PatientID": "P011",
+  "VisitID": "V011",
+  "DocID": "DOC11",
+  "RecommendedActions": [
+    "Adequate rest",
+    "Increase nutrition intake"
+  ],
+  "Medications": [
+    {
+      "Name": "Multivitamins",
+      "Dosage": "1 tablet",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-18"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a1"
+  },
+  "PatientID": "P012",
+  "VisitID": "V012",
+  "DocID": "DOC12",
+  "RecommendedActions": [
+    "Limit caffeine",
+    "Monitor pulse"
+  ],
+  "Medications": [
+    {
+      "Name": "Metoprolol",
+      "Dosage": "25mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-20"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a2"
+  },
+  "PatientID": "P013",
+  "VisitID": "V013",
+  "DocID": "DOC13",
+  "RecommendedActions": [
+    "Avoid dust exposure"
+  ],
+  "Medications": [
+    {
+      "Name": "Budesonide",
+      "Dosage": "200mcg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-21"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a3"
+  },
+  "PatientID": "P014",
+  "VisitID": "V014",
+  "DocID": "DOC14",
+  "RecommendedActions": [
+    "Daily glucose monitoring"
+  ],
+  "Medications": [
+    {
+      "Name": "Insulin Glargine",
+      "Dosage": "10 units",
+      "Frequency": "Nightly"
+    }
+  ],
+  "FollowUp_Date": "2026-05-22"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a4"
+  },
+  "PatientID": "P015",
+  "VisitID": "V015",
+  "DocID": "DOC15",
+  "RecommendedActions": [
+    "Stress reduction therapy"
+  ],
+  "Medications": [
+    {
+      "Name": "Alprazolam",
+      "Dosage": "0.25mg",
+      "Frequency": "As needed"
+    }
+  ],
+  "FollowUp_Date": "2026-05-17"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a5"
+  },
+  "PatientID": "P016",
+  "VisitID": "V016",
+  "DocID": "DOC16",
+  "RecommendedActions": [
+    "Bed rest",
+    "Hydration"
+  ],
+  "Medications": [
+    {
+      "Name": "Oseltamivir",
+      "Dosage": "75mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-23"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a6"
+  },
+  "PatientID": "P017",
+  "VisitID": "V017",
+  "DocID": "DOC17",
+  "RecommendedActions": [
+    "Avoid acidic foods"
+  ],
+  "Medications": [
+    {
+      "Name": "Pantoprazole",
+      "Dosage": "40mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-24"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a7"
+  },
+  "PatientID": "P018",
+  "VisitID": "V018",
+  "DocID": "DOC18",
+  "RecommendedActions": [
+    "Low-impact exercise"
+  ],
+  "Medications": [
+    {
+      "Name": "Celecoxib",
+      "Dosage": "200mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-25"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a8"
+  },
+  "PatientID": "P019",
+  "VisitID": "V019",
+  "DocID": "DOC19",
+  "RecommendedActions": [
+    "Avoid sudden head movement"
+  ],
+  "Medications": [
+    {
+      "Name": "Betahistine",
+      "Dosage": "16mg",
+      "Frequency": "Three times daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-26"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8a9"
+  },
+  "PatientID": "P020",
+  "VisitID": "V020",
+  "DocID": "DOC20",
+  "RecommendedActions": [
+    "Use hypoallergenic skincare products"
+  ],
+  "Medications": [
+    {
+      "Name": "Tacrolimus",
+      "Dosage": "0.03% ointment",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-27"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8aa"
+  },
+  "PatientID": "P021",
+  "VisitID": "V021",
+  "DocID": "DOC21",
+  "RecommendedActions": [
+    "Rest",
+    "Increase fluid intake"
+  ],
+  "Medications": [
+    {
+      "Name": "Vitamin C",
+      "Dosage": "500mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-28"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8ab"
+  },
+  "PatientID": "P022",
+  "VisitID": "V022",
+  "DocID": "DOC22",
+  "RecommendedActions": [
+    "Reduce caffeine intake"
+  ],
+  "Medications": [
+    {
+      "Name": "Bisoprolol",
+      "Dosage": "5mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-29"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8ac"
+  },
+  "PatientID": "P023",
+  "VisitID": "V023",
+  "DocID": "DOC23",
+  "RecommendedActions": [
+    "Avoid allergens"
+  ],
+  "Medications": [
+    {
+      "Name": "Budesonide",
+      "Dosage": "2 puffs",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-05-30"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8ad"
+  },
+  "PatientID": "P024",
+  "VisitID": "V024",
+  "DocID": "DOC24",
+  "RecommendedActions": [
+    "Monitor blood sugar"
+  ],
+  "Medications": [
+    {
+      "Name": "Insulin",
+      "Dosage": "10 units",
+      "Frequency": "Before meals"
+    }
+  ],
+  "FollowUp_Date": "2026-05-31"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8ae"
+  },
+  "PatientID": "P025",
+  "VisitID": "V025",
+  "DocID": "DOC25",
+  "RecommendedActions": [
+    "Soft diet"
+  ],
+  "Medications": [
+    {
+      "Name": "Loperamide",
+      "Dosage": "2mg",
+      "Frequency": "After loose stool"
+    }
+  ],
+  "FollowUp_Date": "2026-06-01"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8af"
+  },
+  "PatientID": "P026",
+  "VisitID": "V026",
+  "DocID": "DOC26",
+  "RecommendedActions": [
+    "Avoid water exposure"
+  ],
+  "Medications": [
+    {
+      "Name": "Cefuroxime",
+      "Dosage": "500mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-06-02"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8b0"
+  },
+  "PatientID": "P027",
+  "VisitID": "V027",
+  "DocID": "DOC27",
+  "RecommendedActions": [
+    "Immobilize affected leg"
+  ],
+  "Medications": [
+    {
+      "Name": "Diclofenac",
+      "Dosage": "50mg",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-06-03"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8b1"
+  },
+  "PatientID": "P028",
+  "VisitID": "V028",
+  "DocID": "DOC28",
+  "RecommendedActions": [
+    "Vestibular exercises"
+  ],
+  "Medications": [
+    {
+      "Name": "Betahistine",
+      "Dosage": "16mg",
+      "Frequency": "Three times daily"
+    }
+  ],
+  "FollowUp_Date": "2026-06-04"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8b2"
+  },
+  "PatientID": "P029",
+  "VisitID": "V029",
+  "DocID": "DOC29",
+  "RecommendedActions": [
+    "Neurological therapy"
+  ],
+  "Medications": [
+    {
+      "Name": "Gabapentin",
+      "Dosage": "300mg",
+      "Frequency": "Once daily"
+    }
+  ],
+  "FollowUp_Date": "2026-06-05"
+},
+{
+  "_id": {
+    "$oid": "69fb6379a947b9ec40f5d8b3"
+  },
+  "PatientID": "P030",
+  "VisitID": "V030",
+  "DocID": "DOC30",
+  "RecommendedActions": [
+    "Moisturize skin regularly"
+  ],
+  "Medications": [
+    {
+      "Name": "Tacrolimus Ointment",
+      "Dosage": "Apply thin layer",
+      "Frequency": "Twice daily"
+    }
+  ],
+  "FollowUp_Date": "2026-06-06"
+},
+{
+  "_id": {
+    "$oid": "6a0710ce53fbadae44b38c91"
+  },
+  "PatientID": "P031",
+  "treatments": []
+},
+{
+  "_id": {
+    "$oid": "6a0717a953fbadae44b38c94"
+  },
+  "PatientID": "P031",
+  "VisitID": "V031",
+  "DocID": "DOC031",
+  "RecommendedActions": "Sleep",
+  "Medications": [
+    {
+      "Name": "Paracetamol",
+      "Dosage": "Dosage",
+      "Frequency": "Once a day"
+    }
+  ],
+  "FollowUp_Date": {
+    "$date": "2026-05-15T12:54:17.503Z"
+  },
+  "CreatedAt": {
+    "$date": "2026-05-15T12:55:05.736Z"
+  }
+}]
